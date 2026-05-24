@@ -1,0 +1,12 @@
+body { font-family: sans-serif; background: #f4f4f9; max-width: 500px; margin: 40px auto; padding: 20px; }
+.container { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+.input-group { display: flex; gap: 10px; margin-bottom: 20px; }
+input[type="text"] { flex-grow: 1; padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
+button { padding: 10px 15px; background: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer; }
+button:hover { background: #0056b3; }
+ul { list-style: none; padding: 0; }
+li { display: flex; justify-content: space-between; align-items: center; padding: 12px; border-bottom: 1px solid #eee; }
+.task-text { flex-grow: 1; cursor: pointer; }
+.completed .task-text { text-decoration: line-through; color: #888; }
+.delete-btn { background: #dc3545; }
+.delete-btn:hover { background: #c82333; }
